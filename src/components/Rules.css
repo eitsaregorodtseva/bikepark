@@ -1,0 +1,81 @@
+.Rules {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 35px;
+  padding: 55px 40px 55px 40px;
+  background-color: #f2f4f7;
+  border-radius: 20px;
+}
+
+.RulesLabel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  color: #14233d;
+  margin-bottom: 50px;
+}
+
+.RulesContent {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #14233d;
+  text-align: justify;
+}
+
+.RulesContentLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 110%;
+  color: #14233d;
+  margin-bottom: 30px;
+}
+
+.RentLabels {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #abb1c5;
+}
+
+.FlexibleRentLabels {
+  display: flex;
+  gap: 30px; 
+  flex-direction: row;
+  margin-bottom: 40px
+}
+
+.Footer {
+  display: flex;
+  color: #ffffff;
+  position: relative;
+  flex-direction: row;
+  gap: 200px;
+  margin-top: 75px;
+  background-color: #272934;
+  padding-top: 80px;
+  padding-left: 220px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .FlexibleRentLabels {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Footer {
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 50px;
+    gap: 30px
+  }
+}

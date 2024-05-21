@@ -1,0 +1,107 @@
+.Navbar {
+  height: 80px;
+}
+
+.NavItem {
+  padding: 30px 10px;
+}
+
+.NavItem :hover {
+  color: #297fff;
+}
+
+.Navs {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Contacts {
+  min-width: 650px;
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 35px;
+  padding: 55px 40px 55px 40px;
+  background: #f2f4f7;
+  border-radius: 20px;
+}
+
+.ContactsLabel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  color: #14233d;
+}
+
+.ContactsContent {
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  gap: 0px;
+  flex-direction: row;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #14233d;
+}
+
+.ButtonStyle {
+  height: 40px;
+  margin-top: 30px;
+  width: 560px;
+  background-color: #297fff;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+
+.Label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #abb1c5;
+}
+
+.Text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #14233d;
+}а
+
+.Footer {
+  display: flex;
+  color: #ffffff;
+  position: relative;
+  flex-direction: row;
+  gap: 200px;
+  margin-top: 75px;
+  background-color: #272934;
+  padding-top: 80px;
+  padding-left: 220px;
+}
+
+@media screen and (max-width: 1000px) {
+  .Footer {
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 50px;
+    gap: 30px
+  }
+}
+@media screen and (max-width: 1200px) {
+  .ContactsContent {   
+    flex-direction: column;
+    gap: 50px
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Footer {
+    width: 800px;
+  }
+}
+

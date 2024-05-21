@@ -1,0 +1,187 @@
+.Navbar {
+  height: 80px;
+}
+
+.Container {
+  margin-left: 30%;
+}
+
+.NavItem {
+  padding: 30px 10px;
+}
+
+.NavItem :hover {
+  color: #297fff;
+}
+
+.Navs {
+  text-decoration: none;
+  color: #000000;
+}
+
+.AboutUs {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 35px;
+  padding: 55px 40px 55px 40px;
+  background-color: #f2f4f7;
+  border-radius: 20px;
+  min-width: 800px;
+}
+
+.AboutUsLabel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  color: #14233d;
+  margin-bottom: 50px;
+}
+
+.AboutUsContent {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.AboutUsText {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #14233d;
+  text-align: justify;
+}
+
+.Feedback {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 34px;
+  padding: 55px 40px 55px 40px;
+  background: #f2f4f7;
+  border-radius: 20px;
+  min-width: 800px;
+}
+
+.FeedbackLabel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  color: #14233d;
+  margin-bottom: 50px;
+}
+
+.FeedbackContent {
+  margin: 0px 120px 0px 120px;
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.FeedbackBox {
+  position: relative;
+  margin-top: 70px;
+  width: 300px;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.FeedbackText {
+  margin: 30px 20px 20px 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #14233d;
+  text-align: justify;
+}
+.Footer {
+  display: flex;
+  color: #ffffff;
+  position: relative;
+  flex-direction: row;
+  gap: 200px;
+  margin-top: 75px;
+  background-color: #272934;
+  padding-top: 80px;
+  padding-left: 220px;
+  padding-bottom: 100px;
+}
+
+.FeedbackName {
+  display: flex;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+ margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.Lk {
+  margin-left: 40px;
+}
+
+.FeedbackButton {
+  margin-left: 10px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .Footer {
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 50px;
+    gap: 30px;
+    width: 1000px;
+  }
+  .Container {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .AboutUsContent{   
+    flex-direction: column;
+  }
+  .Container {
+    margin-left: 20%;
+    max-width: 200px;
+  }
+  .Lk {
+    margin-left: 0px;
+  }
+  .FeedbackButton {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .Footer {
+    width: 950px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .FeedbackContent{   
+    flex-direction: column;
+  }
+  .FeedbackContent {
+    gap: 0px;
+    margin: 0px 100px 0px 100px;
+  }
+  .FeedbackBox {
+    width: 500px;
+  }
+  .Container {
+    margin-left: 15%;
+  }
+  .Footer {
+    width: 1200px;
+  }
+}
+
+

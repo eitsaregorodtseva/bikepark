@@ -1,0 +1,282 @@
+.Navbar {
+  height: 80px;
+}
+
+.NavItem {
+  padding: 30px 10px;
+}
+
+.NavItem :hover {
+  color: #297fff;
+}
+
+.Navs {
+  text-decoration: none;
+  color: #000000;
+}
+
+.RentBox {
+  position: relative;
+  margin-top: 35px;
+  margin-left: 10%;
+  width: 80%;
+  min-height: 373px;
+  background-color: #f2f4f7;
+  border-radius: 20px;
+
+  min-width: 850px;
+  padding: 55px 40px 55px 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.Connection {
+  width: 77px;
+  height: 56px;
+  margin-left: 200px;
+  background-color: #ffffff;
+  border-right: 70px;
+}
+
+.RentBoxLabel {
+  padding-left: 40px;
+  width: 47%;
+}
+
+.HelmetBox {
+  margin-left: 0px;
+  position: inherit;
+  background-color: #d7e6ff;
+  width: 316px;
+  height: 207px;
+  transform: skew(-23deg);
+  border-radius: 20px;
+}
+
+.TorchBox {
+  margin-left: -135px;
+  background-color: #b9d5ff;
+  width: 316px;
+  height: 207px;
+  transform: skew(-23deg);
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.LockBox {
+  margin-left: -85px;
+  margin-right: 0;
+  background-color: #a5c7fa;
+  width: 205px;
+  height: 207px;
+
+  border-radius: 20px;
+  z-index: 3;
+}
+
+.HoverLockBox {
+  margin-left: -45px;
+  margin-right: 0;
+  background-color: #a5c7fa;
+  width: 150px;
+  height: 207px;
+  transform: skew(-23deg);
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.FreeNames {
+  margin-left: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #14233d;
+  transform: skew(23deg);
+}
+.Frees {
+  margin-left: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #297fff;
+  transform: skew(23deg);
+}
+
+.RentBoxForm {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #abb1c5;
+}
+
+.BikeTypes {
+  position: relative;
+  padding: 55px 40px 55px 40px;
+  margin-left: 10%;
+  width: 80%;
+  background-color: #f2f4f7;
+  border-radius: 20px;
+  min-width: 850px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #abb1c5;
+}
+
+.RentPrice {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #297fff;
+}
+
+.BikeMaterial {
+  width: 250px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #14233d;
+}
+
+.Footer {
+  display: flex;
+  color: #ffffff;
+  position: relative;
+  flex-direction: row;
+  gap: 200px;
+  margin-top: 75px;
+  background-color: #272934;
+  padding-top: 80px;
+  padding-left: 220px;
+}
+
+.FormGroup {
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.Bikes {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+.Bikes1 {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+.Bikes2 {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.Header {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  min-width: 800px;
+}
+
+.Logo {
+  display: flex;
+}
+
+.ButtonMargin {
+  width: 260px;
+  height: 60px;
+  background-color: #297fff;
+  border-radius: 10px;
+  margin-top: 3%;
+  margin-left: 38%;
+}
+
+@media screen and (max-width: 1400px) {
+  .Bikes {
+    flex-direction: column;
+    gap: 150px;
+  }
+  .Header {
+    flex-direction: column;
+  }
+  .BikeTypes {
+    padding-left: 150px;
+    padding-right: 100px;
+  }
+  .RentBoxLabel {
+    width: 100%;
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+  .Logo {
+    padding-left: 50px;
+  }
+  .ButtonMargin {
+    margin-left: 30%;
+  }
+  .HelmetBox {
+    transform: none;
+    width: 200px;
+  }
+  .TorchBox {
+    transform: none;
+    margin-left: 0px;
+    
+    width: 200px;
+  }
+  .HoverLockBox {
+    transform: none;  
+    margin-left: 0px;
+    width: 200px;
+  }
+  .LockBox {
+    margin-left: 0px;
+   }
+  .FreeNames {
+    transform: none;
+  }
+  .Frees {
+    transform: none;
+    margin-left: 30px;
+  }
+  .img {
+    transform: none;
+  }
+  .Footer {
+    width: 1400px
+  }
+}
+
+
+
+@media screen and (max-width: 950px) {
+  .FormGroup {
+    flex-direction: column;
+  }
+  .Footer {
+    width: 950px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Footer {
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 50px;
+    gap: 30px;
+    width: 1000px;
+  }
+}

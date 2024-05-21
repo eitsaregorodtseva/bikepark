@@ -1,0 +1,85 @@
+.Navbar {
+  height: 80px;
+}
+
+.NavItem {
+  padding: 30px 10px;
+}
+
+.NavItem :hover {
+  color: #297fff;
+}
+
+.Navs {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Manage {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 35px;
+  background-color: #f2f4f7;
+  padding: 55px 40px 55px 40px;
+  border-radius: 20px;
+}
+
+.LkLabel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  color: #14233d;
+}
+
+.Row {
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.BottomButtons {
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.Footer {
+  display: flex;
+  color: #ffffff;
+  position: relative;
+  flex-direction: row;
+  gap: 200px;
+  margin-top: 75px;
+  background-color: #272934;
+  padding-top: 80px;
+  padding-left: 220px;
+}
+
+.FooterBlock {
+}
+
+@media screen and (max-width: 900px) {
+  .Row {
+    flex-direction: column;
+    margin: 20px 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Footer {
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 50px;
+    gap: 30px
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .BottomButtons {
+    flex-direction: column;
+    margin: 50px 0px;
+  }
+}
